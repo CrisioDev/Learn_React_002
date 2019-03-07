@@ -22,6 +22,7 @@ class App extends Component {
       padding: '8px',
       cursor: 'pointer'
     };
+    
     return (
       <div className="App">
         <UserInput style={style} name={this.state.username} changed={this.changeUsernameHandler}/>
